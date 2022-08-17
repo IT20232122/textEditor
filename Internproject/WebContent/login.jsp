@@ -7,8 +7,8 @@
 <style>
 
 body{
-    background-color: #006400;
-    background-image:url("backgroundpic.jpg");
+    background-color: #4eded2;
+    
     background-repeat: no-repeat;
  	 background-size: auto;
  	 min-height: 100%;

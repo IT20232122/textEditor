@@ -59,7 +59,7 @@
             display: none!important;
         }
         body {
-  background-color: DarkGreen;
+  background-color: #4eded2;
 }
     </style>
 </head>

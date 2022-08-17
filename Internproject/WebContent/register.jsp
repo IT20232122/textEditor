@@ -7,8 +7,8 @@
 <style>
 
 body{
-    background-color: #0a140b;
-    background-image:url("backgroundpic.jpg");
+    background-color: #4eded2;
+    
     background-repeat: no-repeat;
  	 background-size: auto;
  	 min-height: 100%;
@@ -36,7 +36,8 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50          %;
+  position: relative;
 }
 
 button:hover {
@@ -88,7 +89,7 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #006400;
+  background-color: #fcfcfc;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
@@ -158,7 +159,7 @@ span.psw {
       
       <label for="email"><b>Email</b></label>
       <br>
-      <input type="email" placeholder="Enter Email" name="email" required>
+      <input type="text" placeholder="Enter Email" name="email" required>
       
       <br><br>
       <label for="uname"><b>Username</b></label>
@@ -173,9 +174,11 @@ span.psw {
       
       
       
-
+<center>
 <button onclick="myFunction()">Register</button>
 
+                    <a href = "login.jsp"><button class="btn btn--radius btn--green" type = "button" >Login</button></a><br><br>   
+</center>                   
 <script>
 function myFunction() {
   alert("Successful Registration");
@@ -184,22 +187,11 @@ function myFunction() {
 </script>
       
      
-                    		<td>&nbsp&nbsp&nbsp</td>
                     		
-                 
-                    <div class="p-t-30">
-                    <a href = "login.jsp"><button class="btn btn--radius btn--green" type = "button">Login</button></a><br><br>
-                    
-
-
+           <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      
-    </div>
-  </form>
+  
+</form>
 </div>
 
 
